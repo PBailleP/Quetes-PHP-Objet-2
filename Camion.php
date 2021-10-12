@@ -53,10 +53,10 @@ class Camion extends Vehicle {
     {
         $this->charge = $capacity;
     }
-    public function filling(int $charge): void
+    public function filling()
     {
         $charging = "";
-        if ($this->capacity > $charge ) {
+        if ($this->capacity > $this->charge ) {
             $charging .= "In filling";
         } else {
             $charging .="full";
