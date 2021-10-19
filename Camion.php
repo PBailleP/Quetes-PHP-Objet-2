@@ -60,8 +60,8 @@ class Camion extends Vehicle {
             $this->charge ++;
             $charging .="In charging";
         }
-            $charging .="full"
+            $charging .="full";
             return $charging;
-        }
+        
     }
 }
