@@ -13,4 +13,4 @@ var_dump($car);
 require_once 'Camion.php';
 $cam1 = new Camion("Red", 2, "electric", 500);
 var_dump($cam1);
-echo $cam1->filling(500);
+echo $cam1->filling();
